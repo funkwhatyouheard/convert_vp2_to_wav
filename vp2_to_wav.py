@@ -2,7 +2,6 @@
 import sys, argparse
 from os import path, getcwd, walk, listdir
 from glob import glob
-import pdb
 
 def convert_vp2_to_wav(inputfile=None,directory=None,recurse=False,outputdir=None):
     # RIFF in ascii
